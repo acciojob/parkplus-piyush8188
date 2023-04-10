@@ -1,9 +1,5 @@
 package com.driver.services;
 
-import com.driver.model.ParkingLot;
-import com.driver.model.Spot;
-import org.springframework.stereotype.Service;
-
 public interface ParkingLotService {
     
     void deleteSpot(int spotId);
